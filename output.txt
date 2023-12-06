@@ -1,0 +1,34 @@
+
+> components-library-demo@0.1.0 build
+> vue-cli-service build
+
+
+**************************** externals
+{ vue: 'Vue' }
+Error parsing bundle asset "C:\Users\zhangg\projects\cucurbitbaby\zhongji_copy\frontend\front_demos\vue-cli\vue-cli-4\components-library-demo\dist\js\app.e5113e6a.js": no such file
+Error parsing bundle asset "C:\Users\zhangg\projects\cucurbitbaby\zhongji_copy\frontend\front_demos\vue-cli\vue-cli-4\components-library-demo\dist\js\chunk-vendors.78c9265c.js": no such file
+
+No bundles were parsed. Analyzer will show only original module sizes from stats file.
+
+[1mWebpack Bundle Analyzer[22m is started at [1mhttp://127.0.0.1:8888[22m
+Use [1mCtrl+C[22m to close it
+
+
+ SMP  ⏱  
+General output time took 4.44 secs
+
+ SMP  ⏱  Loaders
+modules with no loaders took 1.31 secs
+  module count = 564
+cache-loader, and 
+thread-loader, and 
+babel-loader, and 
+eslint-loader took 1.13 secs
+  module count = 1
+cache-loader, and 
+vue-loader, and 
+eslint-loader took 0.555 secs
+  module count = 4
+
+
+
