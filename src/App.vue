@@ -1,23 +1,23 @@
 <template>
   <div id="app">
     <div style="width: 500px; height: 500px;">
-      <vue-echarts ref="chart" :option="optionData" :loading="loading" autoresize></vue-echarts>
+      <v-chart class="chart" :option="option" autoresize />
     </div>
   </div>
 </template>
 
 <script>
-import VueEcharts from "vue-echarts";
-
+import VueECharts from 'vue-echarts';
+console.log(VueECharts)
 export default {
   name: "App",
   components: {
-    VueEcharts
+    'v-chart': VueECharts
   },
   data() {
     return {
       loading: false,
-      optionData: {
+      option: {
         textStyle: {
           fontFamily: 'Inter, "Helvetica Neue", Arial, sans-serif',
         },

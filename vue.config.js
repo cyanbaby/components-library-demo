@@ -57,8 +57,8 @@ module.exports = {
       config.plugins.push(new BundleAnalyzerPlugin())
     }
 
-    config.plugins = [new BundleAnalyzerPlugin(), new SpeedMeasurePlugin(), new HardSourceWebpackPlugin()]
-    // config.plugins = [new SpeedMeasurePlugin(), new HardSourceWebpackPlugin()]
+    // config.plugins = [new BundleAnalyzerPlugin(), new SpeedMeasurePlugin(), new HardSourceWebpackPlugin()]
+    config.plugins.push(new SpeedMeasurePlugin(), new HardSourceWebpackPlugin())
     // config.plugins = [new HardSourceWebpackPlugin()]
 
     config.devtool = "source-map";

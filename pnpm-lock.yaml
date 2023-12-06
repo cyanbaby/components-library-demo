@@ -32,8 +32,8 @@ dependencies:
     specifier: ^2.7.13
     version: 2.7.13
   vue-echarts:
-    specifier: ^6.5.5
-    version: 6.5.5(echarts@5.4.2)(vue@2.7.13)
+    specifier: 6.6.1
+    version: 6.6.1(echarts@5.4.2)(vue@2.7.13)
   vue-pdf:
     specifier: ^4.2.0
     version: 4.2.0(webpack@4.47.0)
@@ -9697,8 +9697,8 @@ packages:
       vue: 2.7.13
     dev: false
 
-  /vue-echarts@6.5.5(echarts@5.4.2)(vue@2.7.13):
-    resolution: {integrity: sha512-KJD1MSyoMQ33q8M4hM45OYeSC+t7LzesIXQOrkRSXv4xhOi0iN+6yEjQuIuqRB9zZGCT2J4bK3eQ+1ttdz4Uag==}
+  /vue-echarts@6.6.1(echarts@5.4.2)(vue@2.7.13):
+    resolution: {integrity: sha512-EpreTzlNeJ+eaUn0AhXEmKJk98xJGecgTqAdyZovoXWnhTxnlW2HuBM0ei3y8rLw1JCUabf8/sYvxjlr8SzBKQ==}
     requiresBuild: true
     peerDependencies:
       '@vue/composition-api': ^1.0.5

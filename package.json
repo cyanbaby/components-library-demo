@@ -18,7 +18,7 @@
     "lodash": "^4.17.21",
     "qiniu-js": "^3.3.1",
     "vue": "^2.7.13",
-    "vue-echarts": "^6.5.5",
+    "vue-echarts": "6.6.1",
     "vue-pdf": "^4.2.0",
     "vxe-table": "^3.3.6",
     "webpack-bundle-analyzer": "^4.10.1"
