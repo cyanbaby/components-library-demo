@@ -1,0 +1,78 @@
+
+> components-library-demo@0.1.0 build
+> vue-cli-service build
+
+
+**************************** externals
+{ vue: 'Vue', echarts: 'echarts', 'vue-echarts': 'VueECharts' }
+ DONE  Compiled successfully in 2009ms20:45:11
+
+[1mWebpack Bundle Analyzer[22m is started at [1mhttp://127.0.0.1:8888[22m
+Use [1mCtrl+C[22m to close it
+
+
+ SMP  ⏱  
+General output time took 1.98 secs
+
+ SMP  ⏱  Loaders
+cache-loader, and 
+cache-loader, and 
+thread-loader, and 
+babel-loader, and 
+vue-loader, and 
+cache-loader, and 
+vue-loader took 1.036 secs
+  module count = 2
+cache-loader, and 
+vue-loader, and 
+eslint-loader took 0.419 secs
+  module count = 1
+mini-css-extract-plugin, and 
+css-loader, and 
+vue-loader, and 
+postcss-loader, and 
+cache-loader, and 
+vue-loader took 0.222 secs
+  module count = 1
+css-loader, and 
+vue-loader, and 
+postcss-loader, and 
+cache-loader, and 
+vue-loader took 0.099 secs
+  module count = 1
+modules with no loaders took 0.007 secs
+  module count = 4
+css-loader, and 
+vue-loader, and 
+postcss-loader took 0.007 secs
+  module count = 1
+vue-loader, and 
+cache-loader, and 
+thread-loader, and 
+babel-loader, and 
+vue-loader, and 
+cache-loader, and 
+vue-loader, and 
+eslint-loader took 0.004 secs
+  module count = 1
+vue-loader, and 
+mini-css-extract-plugin, and 
+css-loader, and 
+postcss-loader, and 
+cache-loader, and 
+vue-loader, and 
+eslint-loader took 0.001 secs
+  module count = 1
+
+
+
+  File                         Size                   Gzipped
+
+  dist\js\app.5555aa57.js      17.33 KiB              3.80 KiB
+  dist\css\app.c7814a47.css    0.04 KiB               0.05 KiB
+
+  Images and other types of assets omitted.
+
+ DONE  Build complete. The dist directory is ready to be deployed.
+ INFO  Check out deployment instructions at https://cli.vuejs.org/guide/deployment.html
+      

@@ -1,4 +1,5 @@
 # components-library-demo
+- 本项目由 vue/cli 4.5.19 创建，用来做NPM包转CDN加载的测试。
 
 ## 按需导入
 ```js
